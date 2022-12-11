@@ -120,7 +120,7 @@ class livreurC
 
 	function recherche($search_value)
 	{
-		$sql="SELECT * FROM livreur where nom like '$search_value' ";
+		$sql="SELECT * FROM livreur where nom like '$search_value' OR numero like '$search_value' ";
 	
 		//global $db;
 		$db =Config::getConnexion();

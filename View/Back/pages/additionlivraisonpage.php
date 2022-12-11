@@ -110,6 +110,9 @@ $listelivreur=$livreurC->listlivreur();
               <i class="material-icons opacity-10">Add</i>
             </div>
             <span class="nav-link-text ms-1">Afficher livraison</span>
+            <div class="text-white text-center me-2 d-flex align-items-center justify-content-center">
+              <i class="material-icons opacity-10">Add</i>
+            </div>
           </a>
         </li>
         <li class="nav-item mt-3">

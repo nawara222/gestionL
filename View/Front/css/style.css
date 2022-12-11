@@ -1,6 +1,6 @@
 /********** Template CSS **********/
 :root {
-    --primary: #FEA116;
+    --primary: #ffffff;
     --light: #F1F8FF;
     --dark: #0F172B;
 }
@@ -51,7 +51,7 @@
 
 .btn.btn-primary,
 .btn.btn-secondary {
-    color: #FFFFFF;
+    color: #ffffff !important;
 }
 
 .btn-square {
@@ -169,7 +169,7 @@
 }
 
 .breadcrumb-item + .breadcrumb-item::before {
-    color: rgba(255, 255, 255, .5);
+    color: rgba(209, 159, 159, 0.5);
 }
 
 

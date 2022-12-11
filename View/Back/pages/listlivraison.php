@@ -9,32 +9,6 @@ $list = $livraisonC->listlivraison();
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-<!--
-=========================================================
-* Material Dashboard 2 - v3.0.0
-=========================================================
-
-* Product Page: https://www.creative-tim.com/product/material-dashboard
-* Copyright 2021 Creative Tim (https://www.creative-tim.com)
-* Licensed under MIT (https://www.creative-tim.com/license)
-* Coded by Creative Tim
-
-=========================================================
-
-* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
--->
 <!DOCTYPE html>
 <html lang="en">
 
@@ -56,8 +30,9 @@ $list = $livraisonC->listlivraison();
   <!-- Material Icons -->
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Round" rel="stylesheet">
   <!-- CSS Files -->
+  
   <link id="pagestyle" href="../assets/css/material-dashboard.css?v=3.0.0" rel="stylesheet" />
-  <script src="controlelivreur.js" </script>
+  <script src="controlelivreur.js"></script>
 </head>
 
 <body class="g-sidenav-show  bg-gray-200">
@@ -179,9 +154,9 @@ $list = $livraisonC->listlivraison();
         <nav aria-label="breadcrumb">
           <ol class="breadcrumb bg-transparent mb-0 pb-0 pt-1 px-0 me-sm-6 me-5">
             <li class="breadcrumb-item text-sm"><a class="opacity-5 text-dark" href="javascript:;">Pages</a></li>
-            <li class="breadcrumb-item text-sm text-dark active" aria-current="page">Addition livraison</li>
+            <li class="breadcrumb-item text-sm text-dark active" aria-current="page">Afficher livraisons</li>
           </ol>
-          <h6 class="font-weight-bolder mb-0">Addition livraison</h6>
+          <h6 class="font-weight-bolder mb-0">Afficher livraisons</h6>
         </nav>
         <div class="collapse navbar-collapse mt-sm-0 mt-2 me-md-0 me-sm-4" id="navbar">
           <div class="ms-md-auto pe-md-3 d-flex align-items-center">
@@ -320,7 +295,7 @@ $list = $livraisonC->listlivraison();
                 </div>
             
 
-    <table border="1" align="center" width="70%">
+                <table border="1" align="center" width="70%">
         <tr>
             
             <th>id livraison</th>
@@ -342,7 +317,7 @@ $list = $livraisonC->listlivraison();
                 <td align="center">
                     <form method="POST" action="updatelivraison.php?id_livraison=<?php echo $livraison['id_livraison']; ?>">
                         <input type="submit" name="update" value="Update">
-                        <input type="hidden" value=<?PHP echo $livraison['id_livraison']; ?> name="id_livraison">
+                        <input type="hidden" value= <?PHP echo $livraison['id_livraison']; ?> name="id_livraison">
                     </form>
                 </td>
                 <td>
@@ -353,6 +328,8 @@ $list = $livraisonC->listlivraison();
         }
         ?>
     </table>
+    <div class="row">
+                                    </div>
               </div>
             </div>
           </div>
@@ -391,19 +368,15 @@ $list = $livraisonC->listlivraison();
         </footer>
       </div>
     </main>
-            <span class="me-auto font-weight-bold">Material Dashboard </span>
-            <small class="text-body">11 mins ago</small>
-            <i class="fas fa-times text-md ms-3 cursor-pointer" data-bs-dismiss="toast" aria-label="Close"></i>
+            
           </div>
           <hr class="horizontal dark m-0">
-          <div class="toast-body">
-            Hello, world! This is a notification message.
-          </div>
+         
         </div>
         <div class="toast fade hide p-2 mt-2 bg-gradient-info" role="alert" aria-live="assertive" id="infoToast" aria-atomic="true">
           <div class="toast-header bg-transparent border-0">
             <i class="material-icons text-white me-2">
-        additionlivraison
+        additionlivreur
       </i>
             <span class="me-auto text-white font-weight-bold">Material Dashboard </span>
             <small class="text-white">11 mins ago</small>

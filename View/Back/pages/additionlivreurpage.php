@@ -20,6 +20,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <link rel="apple-touch-icon" sizes="76x76" href="../assets/img/apple-icon.png">
   <link rel="icon" type="image/png" href="../assets/img/favicon.png">
+  <script src="controlelivreur.js"></script>
   <title>
     Material Dashboard 2 by Creative Tim
   </title>
@@ -35,7 +36,7 @@
   <!-- CSS Files -->
   <link id="pagestyle" href="../assets/css/material-dashboard.css?v=3.0.0" rel="stylesheet" />
 
-  <script src="controlelivreur.js"></script>
+  
   
 </head>
 
@@ -302,11 +303,14 @@
                 </div>
                 <div class="container-fluid">
                   <form action="http://localhost/yummy/view/Back/pages/ajouterfilelivreur.php/" method="POST" id="form" name="form" onSubmit="return verif()">
+                    
                     <div class="input-group input-group-outline my-3">
                       <label class="form-label">nom</label>
-                      <input type="name" class="form-control" name="nom" id="nom"  placeholder="De 3 à 12 caractères" >
-                      <p style="color : red" id="nom"> </p>
+                      <input type="name" class="form-control" name="nom" id="nom">                      
                     </div>
+                    <div id="error" style="color: red;"></div>
+                    <p style="color: red;" id="nom"> </p>
+                    
                     <div class="input-group input-group-outline my-3">
                
                      
@@ -314,14 +318,15 @@
                     </div>
                     <div class="input-group input-group-outline mb-3">
                       <label class="form-label">numero</label>
-                      <input type="number" class="form-control" name="numero" id="numero" placeholder="numero" required>
+                      <input type="number" class="form-control" name="numero" id="numero" >
                     </div>
-                    <script src="controlelivreur.js"> </script>
+                    
                     <div class="text-center">
                     <button type="submit" value="submit" class="btn bg-gradient-primary w-100 my-4 mb-2" onclick="verif()">Add</button>
+                    
                     </div>
                     <br>
-                    <div id="error" style="color: red;"></div>
+                    
                     <p class="mt-4 text-sm text-center">
                       
                       <a href="../pages/sign-up.html" class="text-primary text-gradient font-weight-bold"></a>
@@ -425,7 +430,7 @@
               <div class="copyright text-center text-sm text-muted text-lg-start">
                 © <script>
                   document.write(new Date().getFullYear())
-                </script>,
+                </script>
                 
                 <a href="https://www.creative-tim.com" class="font-weight-bold" target="_blank"></a>
                
@@ -543,6 +548,7 @@
   <script async defer src="https://buttons.github.io/buttons.js"></script>
   <!-- Control Center for Material Dashboard: parallax effects, scripts for the example pages etc -->
   <script src="../assets/js/material-dashboard.min.js?v=3.0.0"></script>
+  <script src="controlelivreur.js"> </script>
 </body>
 
 </html>

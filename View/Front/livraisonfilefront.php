@@ -43,7 +43,7 @@ $livraisonC->addlivraison($livraison);
 
             
         <div class="col-12">
-            <button class="btn btn-primary w-100 py-3" type="submit">Cliquez pour afficher votre Coupon</button>
+            <button  class="btn bg-gradient-primary w-100 my-4 mb-2" type="submit">Cliquez pour afficher votre Coupon</button>
         </div>
     </div>
 </form>

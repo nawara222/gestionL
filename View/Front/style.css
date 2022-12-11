@@ -10,7 +10,7 @@
 .ticket {
 	display: inline-block;
 	margin: 0 auto;
-	border: 2px solid #9facbc;
+	border: 2px solid #99478d;
 	font-family: "Variable Bahnschrift", "FF DIN", "Franklin Gothic", "Helvetica Neue", sans-serif;
 	font-feature-settings: "kern" 1;
 	background: #fff;
@@ -19,7 +19,7 @@
 .ticket__header {
 	margin: 0;
 	padding: 1.5em;
-	background: #f4f5f6;
+	background: #99478d !important;
 }
 
 .ticket__co span,
@@ -32,7 +32,7 @@
 	position: relative;
 	padding-left: 5em;
 	line-height: 1;
-	color: #5e7186;
+	color: #ffffff;
 }
 
 .ticket__co-icon {
@@ -69,7 +69,7 @@
 	margin-top: .5em;
 	font-variation-settings: "wght" 350;
 	font-size: 1.125em;
-	color: #506072;
+	color: #ffffff;
 }
 
 .ticket__timing {
@@ -85,7 +85,7 @@
 .ticket__timing p {
 	margin: 0 1rem 0 0;
 	padding-right: 1rem;
-	border-right: 2px solid #9facbc;
+	border-right: 2px solid #ffffff;
 	line-height: 1;
 }
 
@@ -100,7 +100,7 @@
 	margin-bottom: .5em;
 	font-variation-settings: "wght" 300;
 	font-size: .875em;
-	color: #506072;
+	color: #000000;
 }
 
 .ticket__detail {
@@ -114,7 +114,7 @@
 	font-size: 2.5em;
 	font-variation-settings: "wght" 700, "wdth" 85;
 	line-height: 1;
-	color: #657990;
+	color: #000000;
 }
 
 .ticket__fine-print {
